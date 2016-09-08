@@ -1,0 +1,30 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+
+body{
+  color:       $default-font-color;
+  font-size:   $default-font-size;
+  font-family: $default-font-family;
+  font-weight: $default-font-weight;
+  margin: 0;
+}
+
+h1{
+  font-size:   2rem;
+  font-weight: $default-font-weight;
+}
+
+h2{
+  font-size:   1.666666667rem;
+  font-weight: $default-font-weight;
+}
+
+h3{
+  font-size:   1.333333333rem;
+  font-weight: $default-font-weight;
+}
+
+h4{
+  font-size: 1rem;
+}
